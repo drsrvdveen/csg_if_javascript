@@ -2,7 +2,7 @@
 var instructieTekst = "Spel met levels op basis van VB26";
 
 /*  **********************************************************
-    **                 BEGIN klasse Levels                  **
+    **                BEGIN klasse LSpacers                 **
     ********************************************************** */
 
 
@@ -117,7 +117,7 @@ class Spacers {
   }    
   
   teken() {
-    background('lawngreen');
+    background('navy');
     if (!this.actief) {
         if (this.afgelopen) {
             this.eindScherm();
@@ -139,7 +139,7 @@ class Spacers {
 }
 
 /*  **********************************************************
-    **  EINDE klasse Spel met Levels  BEGIN hoofdprogramma  **
+    **     EINDE klasse Spacers  BEGIN hoofdprogramma       **
     ********************************************************** */
 
 function setup() {

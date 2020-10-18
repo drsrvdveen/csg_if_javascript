@@ -119,7 +119,7 @@ class Levels {
 }
 
 /*  **********************************************************
-    **  EINDE klasse Spel met Levels  BEGIN hoofdprogramma  **
+    **      EINDE klasse Levels  BEGIN hoofdprogramma       **
     ********************************************************** */
 
 function setup() {
