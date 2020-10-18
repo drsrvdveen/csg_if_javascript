@@ -13,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-  background('white');
+  // background('white');
   for (var n = 0;n < aantal;n++) {
     var x = random(50,400);
     var y = random(50,400);

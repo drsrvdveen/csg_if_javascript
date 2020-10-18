@@ -159,7 +159,7 @@ function keyTyped() {
     spel.nieuwLevel();
   }
   if ((spel.afgelopen) && keyCode == 32) {
-    // einde spel
+    // einde spel => 32 = ENTER 
     spel.nieuwSpel();
   }  
 }
