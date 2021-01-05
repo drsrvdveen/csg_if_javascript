@@ -1,18 +1,24 @@
-var instructieTekst = "uitleg loop-functie";
-
-var x = 450;
+var instructieTekst = "uitleg functies";
 
 function setup() {
     canvas = createCanvas(450,450);    
     canvas.parent('processing');
     fill('whitesmoke');    
-    // noLoop();
-    // x = width;
 }
 
 function draw() {
     background('silver');
+    translate(width/4,height/4);
+    tekenIets();  
+}
+
+function tekenIets() {
+    push();
+    noStroke();
+    fill('green');
+    ellipse(0,0,150);
+    translate(0,40);
     fill('orange');
-    ellipse(x,225,250);
-    // x--;
+    ellipse(0,0,75);
+    pop();
 }

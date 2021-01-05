@@ -26,14 +26,14 @@ var life = 3, life2 = 3;
 var tie = "Gelijkspel!\n Druk op enter om een nieuw spel te starten.", player1win= "Speler 1 wint!\n Druk op enter om een nieuw spel te starten.", player2win= "Speler 2 wint!\n Druk op enter om een nieuw spel te starten.";
 
 function preload(){
-      harry = loadImage("JS/plaatjesgame/harry.png");
-      louis = loadImage("JS/plaatjesgame/louis.png");
-      onedirection = loadImage("JS/plaatjesgame/onedirection.jpg");
-      carrot = loadImage("JS/plaatjesgame/carrot.png");
-      carrot2 = loadImage("JS/plaatjesgame/carrot.png");
-      gelijkspel = loadImage ("JS/plaatjesgame/nialltie.jpg");
-      onedirection2 = loadImage ("JS/plaatjesgame/onedirection.png");
-      onedirection3 = loadImage ("JS/plaatjesgame/onedirection3.jpg");
+      harry = loadImage("harry.png");
+      louis = loadImage("louis.png");
+      onedirection = loadImage("onedirection.jpg");
+      carrot = loadImage("carrot.png");
+      carrot2 = loadImage("carrot.png");
+      gelijkspel = loadImage ("nialltie.jpg");
+      onedirection2 = loadImage ("onedirection.png");
+      onedirection3 = loadImage ("onedirection3.jpg");
   }
 
 function draw (){
