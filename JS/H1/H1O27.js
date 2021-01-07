@@ -19,9 +19,9 @@ function draw() {
   push();
   translate(0.5*breedte,150);
 
-  for (var n = 0; n < 4;n++) {
+  for (var n = 0; n < 8;n++) { // drie delen  variabele met beginwaarde ; eis voor beeindiging ; hoe ophogen
     tekenJos(2);
-    translate(breedte,0);
+    translate(80,0);
   }
   
   pop();

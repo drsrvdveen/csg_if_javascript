@@ -18,8 +18,9 @@ function draw() {
 
 function tekenVormOpWillekeurigePlek() {
     var diameter = 100;
-    var x = random(0,width);
-    var y = random(0,height);
+    var straal = diameter / 2;
+    var x = random(straal,width - straal);
+    var y = random(straal,height - straal);
 
     // hieronder wordt de vorm echt getekend
     push();
