@@ -7,7 +7,7 @@ function setup() {
     canvas.parent('processing');
     fill('gold');
     noStroke();
-    frameRate(5);
+    frameRate(5); // 
 }
 
 function draw() {
