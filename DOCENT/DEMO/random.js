@@ -16,10 +16,14 @@ function draw() {
     }
 }
 
+
+
+
+
 function tekenVormOpWillekeurigePlek() {
-    var diameter = 100;
+    var diameter = 300;
     var straal = diameter / 2;
-    var x = random(straal,width - straal);
+    var x = random(straal,width - straal); // willekeurig tussen #1 , #2
     var y = random(straal,height - straal);
 
     // hieronder wordt de vorm echt getekend
